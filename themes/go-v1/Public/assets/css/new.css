@@ -23,12 +23,22 @@ ul,ol,li{
 }
 
 .my-nav>li{
-    border:1px solid black;
     float:left;
-    width:20px;
-    height: 20px;
     margin-right: 20px;
+    padding:10px 8px;
+    
 }
+.my-nav>li>a:link{
+    color:black;
+}
+.my-nav>li>a:hover{
+    color:rgb(18, 107, 1);
+    font-weight: bold;
+    text-decoration: none;
+}
+/* .my-nav>li>a:link{
+    color:black;
+} */
 
 .my-nav>li:nth-last-child(1){
     margin-right: 0px !important;
