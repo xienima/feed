@@ -1,0 +1,27 @@
+.list-left{
+    float:left;
+    position: relative;
+    width: 66%;
+}
+.list-right{
+    float: right;
+    position: relative;
+    width:351px;
+} 
+.my-nav{
+    padding:0;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.my-nav>li{
+    border:1px solid black;
+    float:left;
+    width:20px;
+    height: 20px;
+    list-style: none;
+    margin-right: 20px;
+}
+.my-nav>li:nth-last-child(1){
+    margin-right: 0px !important;
+}
