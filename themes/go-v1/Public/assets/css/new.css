@@ -24,8 +24,11 @@ ul,ol,li{
 
 .my-nav>li{
     float:left;
+    /* margin-right: 20px;
+    padding:10px 8px; */
+    padding-top:18px;
     margin-right: 20px;
-    padding:10px 8px;
+    max-width: 50px;
     
 }
 .my-nav>li>a:link{
