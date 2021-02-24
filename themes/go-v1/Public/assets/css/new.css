@@ -49,11 +49,11 @@ ul,ol,li{
 
 .block{
     border:1px solid black;
-    padding-left: 50px;
+    padding-left: 20px;
+    height: 300px;
 }
-
 .template{
-    
+    margin:10px;
 }
 
 /********清除ui*********/
