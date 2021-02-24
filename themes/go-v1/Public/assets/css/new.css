@@ -47,6 +47,15 @@ ul,ol,li{
     margin-right: 0px !important;
 }
 
+.block{
+    border:1px solid black;
+    padding-left: 50px;
+}
+
+.template{
+    
+}
+
 /********清除ui*********/
 .clearui:after{
     clear: both;
