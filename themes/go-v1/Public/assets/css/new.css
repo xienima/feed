@@ -63,16 +63,26 @@ ul,ol,li{
 .thumb{
     border:1px solid black;
     width: 174px;
-    height: auto;
-    max-height: 140px;
+    height: 127px;
     float: left;
-    margin:20px;
+    margin:20px 10px 20px 10px;
 }
 .shadow_span{
     width: 48px;
     height:24px;
     background-color: rgba(0, 0, 0, .6);
     margin:0px;
+    position: relative;
+    top:-110px;
+    left: 10px;
+    color:#fff;
+}
+.msg{
+    width: 459px;
+    border: 1px solid black;
+    float: left;
+    margin:20px 10px 20px 10px;
+    height: 127px;
 }
 
 /********清除ui*********/
