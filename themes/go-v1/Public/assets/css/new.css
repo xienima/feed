@@ -14,6 +14,7 @@ ul,ol,li{
     float: right;
     position: relative;
     width:351px;
+    height:400px;
 } 
 .my-nav{
     padding:0;
@@ -48,12 +49,30 @@ ul,ol,li{
 }
 
 .block{
-    border:1px solid black;
     padding-left: 20px;
-    height: 300px;
+    margin-top: 30px;
 }
 .template{
-    margin:10px;
+    height: 150px;
+}
+.border_style{
+    border:1px solid #dedede;
+    margin:30px 0px;
+    opacity: 0.6;
+}
+.thumb{
+    border:1px solid black;
+    width: 174px;
+    height: auto;
+    max-height: 140px;
+    float: left;
+    margin:20px;
+}
+.shadow_span{
+    width: 48px;
+    height:24px;
+    background-color: rgba(0, 0, 0, .6);
+    margin:0px;
 }
 
 /********清除ui*********/
