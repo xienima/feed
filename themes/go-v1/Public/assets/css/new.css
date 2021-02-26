@@ -21,6 +21,7 @@ ul,ol,li{
     background-color: #fff;
     border-radius: 4px;
     height: auto;
+    min-width:748px;
 }
 
 .my-nav>li{
@@ -54,6 +55,7 @@ ul,ol,li{
 }
 .template{
     height: 150px;
+    min-width: 752px;
 }
 .border_style{
     border:1px solid #dedede;
@@ -83,6 +85,9 @@ ul,ol,li{
     float: left;
     margin:20px 10px 20px 10px;
     height: 127px;
+}
+.title{
+
 }
 
 /********清除ui*********/
